@@ -1,0 +1,6 @@
+# Cricket-Project
+A project to learn and understand more about python, with a friend of mine.
+So this is pretty much the first project we will start with, and probably there are many more to follow.
+We intend to develop a sound knowledge of certain imp. modules like re and urllib through this project.
+The names of the two people contributing are:
+Vaibhav Gupta(me) and Rishabh Gaur
