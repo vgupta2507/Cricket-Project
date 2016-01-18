@@ -1,0 +1,4 @@
+import urllib.request
+
+dhawan = urllib.request.urlopen("http://www.espncricinfo.com/india/content/player/28235.html")
+print(dhawan)

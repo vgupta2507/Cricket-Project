@@ -1,0 +1,11 @@
+import urllib.request
+import re
+from pprint import pprint
+
+#dhawan = urllib.request.urlopen("http://www.espncricinfo.com/india/content/player/28235.html")
+#dhawan_html = str(dhawan.read())      # dhawan_html => The source code of Dhawan page
+in_file = open('dhawan_page.txt', 'r')
+#in_file.write(dhawan_html)
+small_segment = re.findall('<table class="engineTable".*</table>', in_file.read())
+pprint(small_segment[2])
+
