@@ -1,0 +1,28 @@
+We should choose our objects from amongst the following:
+   1) Player
+   2) table- (holds data for both batting and bowling) 
+      
+      and more will become obvious as we go ahead.
+      
+The player should have the following attributes:
+   1) name
+   2) html_page
+   3) table (yet another object)
+   
+      and more will become obvious as we go ahead
+      
+The player should have the following methods:
+   1) getting_table
+   2) batting_max
+   3) batting_min
+   4) bowling_max
+   5) bowling_min
+   6) batting_avg
+   7) bowling_avg       # Or whatever statistical methods seem fit for the purpose
+   
+      and more will become obvious as we go ahead
+      
+The table should have the following attributes:
+   1) runs_list
+   2) bowling_list
+   3) opposition(maybe)
